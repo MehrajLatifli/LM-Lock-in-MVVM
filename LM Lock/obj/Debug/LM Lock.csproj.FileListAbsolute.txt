@@ -1,7 +1,6 @@
 G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\bin\Debug\LM Lock.exe.config
 G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\bin\Debug\LM Lock.exe
 G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\bin\Debug\LM Lock.pdb
-G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\LM Lock.csproj.AssemblyReference.cache
 G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\App.g.cs
 G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\LM Lock_MarkupCompile.cache
 G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\LM Lock_MarkupCompile.lref
@@ -22,3 +21,4 @@ G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock
 G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\bin\Debug\System.Windows.Interactivity.dll
 G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\bin\Debug\Microsoft.Expression.Interactions.xml
 G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\bin\Debug\System.Windows.Interactivity.xml
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\LM Lock.csproj.CopyComplete
