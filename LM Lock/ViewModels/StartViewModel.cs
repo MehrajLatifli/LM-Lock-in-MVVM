@@ -547,6 +547,8 @@ namespace LM_Lock.ViewModels
                 StartWindows.ExtensionComboBox.IsEnabled = true;
 
                 StartWindows.PathTextBox.Text = "Path";
+
+                StartWindows.ExtensionComboBox.SelectedIndex = -1;
             }
 
          
@@ -559,6 +561,9 @@ namespace LM_Lock.ViewModels
                 StartWindows.ExtensionComboBox.IsEnabled = false;
 
                 StartWindows.PathTextBox.Text = "Path";
+
+
+                StartWindows.ExtensionComboBox.SelectedIndex = -1;
             }
         }
 
