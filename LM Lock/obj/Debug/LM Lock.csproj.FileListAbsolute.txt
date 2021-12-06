@@ -1,0 +1,24 @@
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\bin\Debug\LM Lock.exe.config
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\bin\Debug\LM Lock.exe
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\bin\Debug\LM Lock.pdb
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\LM Lock.csproj.AssemblyReference.cache
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\App.g.cs
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\LM Lock_MarkupCompile.cache
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\LM Lock_MarkupCompile.lref
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\LM Lock.g.resources
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\LM_Lock.Properties.Resources.resources
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\LM Lock.csproj.GenerateResource.cache
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\LM Lock.csproj.CoreCompileInputs.cache
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\LM Lock.exe
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\LM Lock.pdb
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\Dictionaries\ButtonDictionary.baml
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\Views\StartWindow.g.cs
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\App.baml
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\Views\StartWindow.baml
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\Dictionaries\GithubButtonDictionary.baml
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\Dictionaries\PowerButtonDictionary.baml
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\obj\Debug\Dictionaries\EmailButtonDictionary.baml
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\bin\Debug\Microsoft.Expression.Interactions.dll
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\bin\Debug\System.Windows.Interactivity.dll
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\bin\Debug\Microsoft.Expression.Interactions.xml
+G:\Step\Ev tapşırıqları\3 -cü yarım il\Systems Programming\Əlavə\LM Lock\LM Lock\bin\Debug\System.Windows.Interactivity.xml

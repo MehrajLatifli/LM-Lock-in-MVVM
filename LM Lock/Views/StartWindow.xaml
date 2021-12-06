@@ -1,0 +1,194 @@
+﻿<Window x:Class="LM_Lock.StartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LM_Lock" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        mc:Ignorable="d"
+        Title="LM Lock" Height="579" Width="800" WindowStyle="None" WindowStartupLocation="CenterScreen" AllowsTransparency="True" Background="Transparent">
+
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadedCommand}" />
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    
+    
+
+
+    <DockPanel>
+
+        <i:Interaction.Triggers>
+            <i:EventTrigger EventName="MouseDown">
+                <i:InvokeCommandAction Command="{Binding MouseDownCommand}" />
+            </i:EventTrigger>
+        </i:Interaction.Triggers>
+        
+        <Border CornerRadius="52" BorderThickness="10" BorderBrush="Red">
+
+            <Border CornerRadius="35" BorderThickness="20">
+
+                <Border.BorderBrush>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#FFE4C4" Offset="1.5"></GradientStop>
+                        <GradientStop Color="#F2C40F" Offset="0.2"></GradientStop>
+                        <GradientStop Color="#E84C3D" Offset="0.8"></GradientStop>
+                    </LinearGradientBrush>
+                </Border.BorderBrush>
+
+                <Grid >
+
+                    <Grid.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#FFE4C4" Offset="1.5"></GradientStop>
+                            <GradientStop Color="#F2C40F" Offset="0.2"></GradientStop>
+                            <GradientStop Color="#E84C3D" Offset="0.8"></GradientStop>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="4*"></ColumnDefinition>
+                            <ColumnDefinition Width="5*"></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Image Grid.Column="0" Source="/Views/BannerLogo.png" Stretch="Uniform" HorizontalAlignment="Left" VerticalAlignment="Center"></Image>
+
+                        <Grid Grid.Column="1">
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="3.5*"></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Column="0" Text="version 1.0.0.0" Foreground="White" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Bottom"></TextBlock>
+
+
+                            <Button Style="{DynamicResource ButtonStyle3}" Grid.Column="1" BorderThickness="0" BorderBrush="Transparent" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="55" Height="55" Cursor="Hand" Command="{Binding EmailCommand}">
+                                <Button.Background>
+                                    <ImageBrush Stretch="Uniform" ImageSource="/Views/emailbutton.png"/>
+                                </Button.Background>
+                            </Button>
+
+                            <Button Style="{DynamicResource ButtonStyle2}" Grid.Column="2" BorderThickness="0" BorderBrush="Transparent" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="55" Height="55" Cursor="Hand" Command="{Binding GithubCommand}">
+                                <Button.Background>
+                                    <ImageBrush Stretch="Uniform" ImageSource="/Views/githublogo1.png"/>
+                                </Button.Background>
+                            </Button>
+
+                        </Grid>
+
+                        <Button Style="{DynamicResource ButtonStyle1}" Grid.Column="2" BorderThickness="0" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="55" Height="55" Cursor="Hand" Command="{Binding CloseCommand}">
+                            <Button.Background>
+                                <ImageBrush Stretch="Uniform" ImageSource="/Views/powerbutton.png"/>
+                            </Button.Background>
+                        </Button>
+
+                    </Grid>
+
+                    <Grid x:Name="EncryptDecryptGrid" Grid.Row="2">
+
+                        <Grid.ColumnDefinitions>
+
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <RadioButton x:Name="EncryptRadioButton" Grid.Column="0" GroupName="A" Content="Encrypt" Margin="10" Padding="20" Foreground="White"  FontSize="20" FontWeight="Black" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">
+                            <RadioButton.RenderTransform>
+                                <ScaleTransform ScaleX="1" ScaleY="1" ></ScaleTransform>
+                            </RadioButton.RenderTransform>
+
+                        </RadioButton>
+
+                        <ComboBox x:Name="ExtensionComboBox" Grid.Column="1" Margin="10" Padding="15" FontSize="25" FontWeight="Bold" Foreground="Black" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" SelectedIndex="-1" ItemsSource="{Binding Extensions}" IsEnabled="False"/>
+
+                        <RadioButton x:Name="DecryptRadioButton" Grid.Column="2" GroupName="A" Content="Decrypt" Margin="10" Padding="20" Foreground="White"  FontSize="20" FontWeight="Black" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">
+                            <RadioButton.RenderTransform>
+                                <ScaleTransform ScaleX="1" ScaleY="1" ></ScaleTransform>
+                            </RadioButton.RenderTransform>
+
+                        </RadioButton>
+
+                    </Grid>
+
+                    
+                    <Grid Grid.Row="3">
+                        
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition Width="2*"></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Column="0" Text="Select File: " Margin="2" Padding="5" FontSize="30" FontWeight="Black" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                        
+                        <TextBox Grid.Column="1" x:Name="PathTextBox" Text="Path" Margin="10" Padding="5,15,5,5" FontSize="25" FontWeight="Black" Foreground="Red" IsReadOnly="True"></TextBox>
+                        <Button Grid.Column="2" x:Name="FileButton"  Style="{DynamicResource Stack}" Margin="10" Padding="5" Content=" File..." FontSize="25" FontWeight="Black" Cursor="Hand" Command="{Binding FileCommand}"></Button>
+
+
+                    </Grid>
+
+   
+                    <Grid Grid.Row="4">
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Button x:Name="StartButton" Grid.Column="0" Style="{DynamicResource Stack}" Margin="10" Padding="5" Content="Start"  FontSize="25" FontWeight="Black" Cursor="Hand"  Command="{Binding StartCommand}"></Button>
+                        <Button x:Name="PausePlayButton" Grid.Column="1" Style="{DynamicResource Stack}" Margin="10" Padding="5" Content="Pause"  FontSize="25" FontWeight="Black" Cursor="Hand"  Command="{Binding PausePlayCommand}"></Button>
+                        <Button x:Name="CancelButton" Grid.Column="2" Style="{DynamicResource Stack}" Margin="10" Padding="5" Content="Cancel"  FontSize="25" FontWeight="Black" Cursor="Hand" Command="{Binding CancelCommand}"></Button>
+
+                    </Grid>
+
+                    <Grid x:Name="ProgressBarGrid" Grid.Row="5">
+
+                        <ProgressBar x:Name="ProcessControlProgressBar" Margin="10" Padding="5" Value="{Binding Pv}" Visibility="Visible">
+
+                            <ProgressBar.Foreground>
+                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                    <GradientStop Color="#FFE4C4" Offset="1.5"></GradientStop>
+                                    <GradientStop Color="#F2C40F" Offset="0.2"></GradientStop>
+                                    <GradientStop Color="#E84C3D" Offset="0.8"></GradientStop>
+                                </LinearGradientBrush>
+                            </ProgressBar.Foreground>
+
+                        </ProgressBar>
+                    </Grid>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </Grid>
+            </Border>
+        </Border>
+    </DockPanel>
+</Window>

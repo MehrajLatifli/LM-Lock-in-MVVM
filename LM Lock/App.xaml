@@ -1,0 +1,21 @@
+﻿<Application x:Class="LM_Lock.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:LM_Lock"
+             StartupUri="Views/StartWindow.xaml">
+    <Application.Resources>
+
+        <ResourceDictionary>
+
+            <ResourceDictionary.MergedDictionaries>
+
+                <ResourceDictionary Source="Dictionaries/PowerButtonDictionary.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="Dictionaries/GithubButtonDictionary.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="Dictionaries/EmailButtonDictionary.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="Dictionaries/ButtonDictionary.xaml"></ResourceDictionary>
+
+            </ResourceDictionary.MergedDictionaries>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
